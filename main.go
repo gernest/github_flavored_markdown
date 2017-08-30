@@ -19,7 +19,6 @@ import (
 	"text/template"
 
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/russross/blackfriday"
 	"github.com/shurcooL/highlight_diff"
 	"github.com/shurcooL/highlight_go"
 	"github.com/shurcooL/octiconssvg"
@@ -28,6 +27,7 @@ import (
 	"github.com/sourcegraph/syntaxhighlight"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
+	"gopkg.in/russross/blackfriday.v1"
 )
 
 // Markdown renders GitHub Flavored Markdown text.
